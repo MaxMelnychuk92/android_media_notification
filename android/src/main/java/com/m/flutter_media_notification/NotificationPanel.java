@@ -1,4 +1,4 @@
-package com.tarafdari.flutter_media_notification;
+package com.tarafdari.a_media_notification;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -17,8 +17,8 @@ import androidx.media.session.MediaButtonReceiver;
 
 public class NotificationPanel extends Service {
     public static int NOTIFICATION_ID = 1;
-    public  static final String CHANNEL_ID = "flutter_media_notification";
-    public  static final String MEDIA_SESSION_TAG = "flutter_media_notification";
+    public  static final String CHANNEL_ID = "a_media_notification";
+    public  static final String MEDIA_SESSION_TAG = "a_media_notification";
 
     @Override
     public void onCreate() {
@@ -127,7 +127,7 @@ public class NotificationPanel extends Service {
                     "Foreground Service Channel",
                     NotificationManager.IMPORTANCE_LOW
             );
-            serviceChannel.setDescription("flutter_media_notification");
+            serviceChannel.setDescription("a_media_notification");
             serviceChannel.setShowBadge(false);
             serviceChannel.setLockscreenVisibility(Notification.VISIBILITY_PUBLIC);
 

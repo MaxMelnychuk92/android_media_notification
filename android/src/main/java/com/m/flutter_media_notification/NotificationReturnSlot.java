@@ -1,4 +1,4 @@
-package com.m.android_media_notification;
+package com.m.a_media_notification;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;

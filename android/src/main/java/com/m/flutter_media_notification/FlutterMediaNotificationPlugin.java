@@ -1,4 +1,4 @@
-package com.m.android_media_notification;
+package com.m.a_media_notification;
 
 
 import io.flutter.plugin.common.MethodCall;
@@ -22,7 +22,7 @@ public class FlutterMediaNotificationPlugin implements MethodCallHandler {
 
   /** Plugin registration. */
   public static void registerWith(Registrar registrar) {
-    FlutterMediaNotificationPlugin.channel = new MethodChannel(registrar.messenger(), "android_media_notification");
+    FlutterMediaNotificationPlugin.channel = new MethodChannel(registrar.messenger(), "a_media_notification");
     FlutterMediaNotificationPlugin.channel.setMethodCallHandler(new FlutterMediaNotificationPlugin(registrar));
   }
 
