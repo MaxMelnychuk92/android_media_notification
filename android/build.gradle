@@ -1,4 +1,4 @@
-group 'com.m.a_media_notification'
+group 'com.tarafdari.flutter_media_notification'
 version '1.0-SNAPSHOT'
 
 buildscript {
