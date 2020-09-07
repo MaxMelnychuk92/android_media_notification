@@ -12,7 +12,7 @@ class MediaNotification {
   /// a channel name passed in the channel constructor.
   /// [_listeners] is used to listen methodCall from notification.
   static const MethodChannel _channel =
-      const MethodChannel('flutter_media_notification');
+      const MethodChannel('android_media_notification');
   static Map<String, Function> _listeners = new Map();
 
   /// [_utilsHandler] called by [setListener] to add all events
